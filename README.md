@@ -1,4 +1,7 @@
-# Streamlit_DBM
+<div align="center"><img src='https://github.com/wavallejol/streamlit/blob/main/GA7.png' width = "350" height = "350" /> </a></div> 
+
+<div align="justify">Este repositorio presenta una serie de simulaciones interactivas 📊 utilizando el marco de aplicaciones de código abierto de Streamlit basado en el lenguaje de programación de python 🐍. Streamlit es muy utilizada para crear aplicaciones basadas en ciencias de datos; sin embargo, en esta ocasión utilizaremos esta poderosa herramienta para acercar conceptos de termodinámica por medio de simulaciones interactivas. Para utilizar los simuladores, no se requerie ningún concepto previo de programación 😆.</div>
+   <hr size="4" width="100%" color="red"> 
 
 <div <p><H3><b>Curva de Distribución de Boltzmann-Maxwell</b></div> 
   <div align="justify">Se presenta un simulador interactivo desarrollado en streamlit, de la Curva de Distribución de Boltzmann-Maxwell como función de la temperatura para cuatro gases.</div>
