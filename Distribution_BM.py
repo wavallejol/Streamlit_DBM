@@ -79,7 +79,5 @@ def main():
                 fig.update_layout(xaxis_range=[0,2500])
                 fig.update_layout(legend=dict(yanchor="top", y=0.9, xanchor="left", x=0.7))
                 st.plotly_chart(fig)
-    with st.expander("Referencia"):
-        st.markdown("""J. Chem. Educ. 2023, 100, 2, 933. [doi:10.1021/acs.jchemed.2c00665](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00665)""")
 
 main()
