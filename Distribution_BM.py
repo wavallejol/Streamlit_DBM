@@ -27,7 +27,7 @@ def main():
 
     Con este simulador podrás obtener la curva de distribución de Boltzmann-Maxwell $\small f(v)$ en función de la $\small T$ para cuatro gases diferentes.
     
-    Puedes consultar el artículo de referencia en el siguiente link: [doi:10.1021/acs.jchemed.2c00665](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00665) """)
+    Puedes consultar una referencia en el siguiente link: [doi:10.1021/acs.jchemed.2c00665](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00665) """)
 
 
     with st.sidebar.form(key='my_form'):
