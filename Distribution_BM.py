@@ -26,8 +26,7 @@ def main():
     Donde $\small R$ es la constante de los gases ($\small 8.314 J.mol^{-1}.K^{-1}$), $\small T$ es la temperatura absoluta y $\small M$ es la masa molar en $\small Kg.mol^{-1}$   .
 
     Con este simulador podrás obtener la curva de distribución de Boltzmann-Maxwell $\small f(v)$ en función de la $\small T$ para cuatro gases diferentes.
-    
-    Puedes consultar una referencia en el siguiente link: [doi:10.1021/acs.jchemed.2c00665](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00665) """)
+    """)
 
 
     with st.sidebar.form(key='my_form'):
@@ -80,5 +79,7 @@ def main():
                 fig.update_layout(xaxis_range=[0,2500])
                 fig.update_layout(legend=dict(yanchor="top", y=0.9, xanchor="left", x=0.7))
                 st.plotly_chart(fig)
+     with st.expander("Referencia"):
+        st.markdown("""J. Chem. Educ. 2023, 100, 2, 933. [doi:10.1021/acs.jchemed.2c00665](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00665)""")
 
 main()
